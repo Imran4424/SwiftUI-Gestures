@@ -13,6 +13,7 @@
 		1D2C4E762AF7257700E160A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2C4E752AF7257700E160A6 /* Preview Assets.xcassets */; };
 		1D2C4E7D2AF72AB500E160A6 /* SingleTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C4E7C2AF72AB500E160A6 /* SingleTapView.swift */; };
 		1D2C4E7F2AF72B0100E160A6 /* MultipleTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C4E7E2AF72B0100E160A6 /* MultipleTapView.swift */; };
+		1D2C4E812AF72B4100E160A6 /* LongPressedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C4E802AF72B4100E160A6 /* LongPressedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		1D2C4E752AF7257700E160A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D2C4E7C2AF72AB500E160A6 /* SingleTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTapView.swift; sourceTree = "<group>"; };
 		1D2C4E7E2AF72B0100E160A6 /* MultipleTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleTapView.swift; sourceTree = "<group>"; };
+		1D2C4E802AF72B4100E160A6 /* LongPressedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1D2C4E702AF7257600E160A6 /* HomeView.swift */,
 				1D2C4E7C2AF72AB500E160A6 /* SingleTapView.swift */,
 				1D2C4E7E2AF72B0100E160A6 /* MultipleTapView.swift */,
+				1D2C4E802AF72B4100E160A6 /* LongPressedView.swift */,
 				1D2C4E722AF7257700E160A6 /* Assets.xcassets */,
 				1D2C4E742AF7257700E160A6 /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 				1D2C4E712AF7257600E160A6 /* HomeView.swift in Sources */,
 				1D2C4E7D2AF72AB500E160A6 /* SingleTapView.swift in Sources */,
 				1D2C4E6F2AF7257600E160A6 /* GesturesApp.swift in Sources */,
+				1D2C4E812AF72B4100E160A6 /* LongPressedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
