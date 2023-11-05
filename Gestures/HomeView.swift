@@ -8,14 +8,47 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State private var index = 0
+    
+    let viewList: [AnyView] = [
+        AnyView(SingleTapView()),
+        AnyView(MultipleTapView()),
+        AnyView(LongPressedView()),
+        AnyView(NestedGestureView()),
+        AnyView(HighPriorityGestureView()),
+        AnyView(SimultaneousGestureView())
+    ]
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Spacer()
+            
+            viewList[index]
+            
+            Spacer()
+            
+            HStack {
+                if index != 0 {
+                    Button("Previous") {
+                        if index > 0 {
+                            index = index - 1
+                        }
+                    }
+                }
+                
+                
+                Spacer()
+                
+                if index != viewList.count - 1 {
+                    Button("Next") {
+                        if index < viewList.count - 1 {
+                            index = index + 1
+                        }
+                    }
+                }
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
