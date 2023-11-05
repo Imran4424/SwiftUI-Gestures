@@ -16,7 +16,8 @@ struct HomeView: View {
         AnyView(LongPressedView()),
         AnyView(NestedGestureView()),
         AnyView(HighPriorityGestureView()),
-        AnyView(SimultaneousGestureView())
+        AnyView(SimultaneousGestureView()),
+        AnyView(SequenceGestureView())
     ]
     
     var body: some View {

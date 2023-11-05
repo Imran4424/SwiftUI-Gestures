@@ -17,6 +17,7 @@
 		1D2C4E832AF72B8600E160A6 /* NestedGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C4E822AF72B8600E160A6 /* NestedGestureView.swift */; };
 		1D2C4E852AF72BE500E160A6 /* HighPriorityGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C4E842AF72BE500E160A6 /* HighPriorityGestureView.swift */; };
 		1D2C4E872AF72C3F00E160A6 /* SimultaneousGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C4E862AF72C3F00E160A6 /* SimultaneousGestureView.swift */; };
+		1D2C4E892AF72CB100E160A6 /* SequenceGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C4E882AF72CB100E160A6 /* SequenceGestureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		1D2C4E822AF72B8600E160A6 /* NestedGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedGestureView.swift; sourceTree = "<group>"; };
 		1D2C4E842AF72BE500E160A6 /* HighPriorityGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighPriorityGestureView.swift; sourceTree = "<group>"; };
 		1D2C4E862AF72C3F00E160A6 /* SimultaneousGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimultaneousGestureView.swift; sourceTree = "<group>"; };
+		1D2C4E882AF72CB100E160A6 /* SequenceGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceGestureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				1D2C4E822AF72B8600E160A6 /* NestedGestureView.swift */,
 				1D2C4E842AF72BE500E160A6 /* HighPriorityGestureView.swift */,
 				1D2C4E862AF72C3F00E160A6 /* SimultaneousGestureView.swift */,
+				1D2C4E882AF72CB100E160A6 /* SequenceGestureView.swift */,
 				1D2C4E722AF7257700E160A6 /* Assets.xcassets */,
 				1D2C4E742AF7257700E160A6 /* Preview Content */,
 			);
@@ -161,6 +164,7 @@
 				1D2C4E872AF72C3F00E160A6 /* SimultaneousGestureView.swift in Sources */,
 				1D2C4E7D2AF72AB500E160A6 /* SingleTapView.swift in Sources */,
 				1D2C4E6F2AF7257600E160A6 /* GesturesApp.swift in Sources */,
+				1D2C4E892AF72CB100E160A6 /* SequenceGestureView.swift in Sources */,
 				1D2C4E812AF72B4100E160A6 /* LongPressedView.swift in Sources */,
 				1D2C4E852AF72BE500E160A6 /* HighPriorityGestureView.swift in Sources */,
 			);
